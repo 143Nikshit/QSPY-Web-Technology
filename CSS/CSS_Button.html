@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Link and Button Style</title>
+    <style>
+        #container {
+            border: 1px solid red;
+            padding: 5px;
+        }
+
+        .btn {
+            cursor: pointer;
+            border: 1px solid black;
+            background-color: wheat;
+            padding: 12px;
+            text-decoration: none;
+        }
+
+        a:visited {
+            background-color: green;
+        }
+
+        a:active {
+            background-color: red;
+        }
+
+        /* The CSS (:hover) pseudo-class is used to select elements when you mouse over them. */
+        a:hover {
+            background-color: aqua;
+        }
+
+        /* For button  */
+        button:hover {
+            background-color: rgb(138, 127, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Heading</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint omnis quibusdam libero ipsam at suscipit!</p>
+
+        <a href="https://google.com" target="_blank" class="btn">read more</a>
+        <button class="btn">read more</button>
+    </div>
+</body>
+
+</html>
